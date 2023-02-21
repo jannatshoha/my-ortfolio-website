@@ -616,15 +616,14 @@ hr{
     display: flex;
     gap: 1rem;
     font-size: 1.5rem;
-    margin-top: 0.9.rem;
-    margin-left: 61rem;
+     margin-left: 61rem;
    
 }
 
 .footer_copyright {
     color: #FF8700;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
     padding: 1.2rem 0;
     border-top: 1px solid #ffffff;
     font-size: larger;
