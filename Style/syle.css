@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
 
 
-
-/* :root {
-    --gradient: linear-gradient(to bottom, #130f40, #190b39, #1c0732, #1d042b, #1e0025);
-    --primary: #FF8700;
-    --normal: #ffffff;
-    --black: #13131a;
-    --bg: #0a0724;
-    --sbg: #12124c;
-    --btn: #800080;
-    --danger: #f75842;
-    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-
-    --container-width-lg: 80%;
-    --container-width-md: 90%;
-    --container-width-sm: 94%;
-} */
-
 body{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -636,6 +619,15 @@ hr{
     margin-top: 0.9.rem;
     margin-left: 61rem;
    
+}
+
+.footer_copyright {
+    color: #FF8700;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid #ffffff;
+    font-size: larger;
 }
 
 
