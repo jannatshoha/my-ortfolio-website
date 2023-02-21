@@ -537,59 +537,18 @@ ul a{
     font-size: 0.9rem;
 }
 /* My Courses Section End Here */
-     /* FAQs Section Start  */
+     /* accordion section start */
+     .accordion-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accordion-items .accordion-item{
+        margin: 10px;
+    }
 
-.faqs {
-    text-align: center;
-    margin-top: 2rem;
-}
 
-.faqs .faqs-title{
-    color: #FF8700;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.faqs_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-
-.faq {
-    padding: 1rem;
-    margin: 0.8rem;
-    display: flex;
-    align-items: center;
-    gap: 1.4rem;
-    height: fit-content;
-    background-color: #800080;
-    color: #ffffff;
-    text-align: justify;
-    cursor: pointer;
-    border-radius: 0.8rem;
-    box-shadow: 0.3rem 0.3rem 1.2rem rgba(0, 0, 0, 0.2);
-}
-
-.faq h4 {
-    font-size: 1rem;
-    line-height: 2.23;
-}
-
-.faq_icon {
-    align-self: flex-start;
-    font-size: 1.3rem;
-}
-
-.faq p {
-    margin-top: 0.8rem;
-    display: none;
-}
-
-.faq.open p {
-    display: block;
-}
-/* FAQs Section End Here */
+/*  Section End Here */
 /* Footer Section Start Here */
 
 
