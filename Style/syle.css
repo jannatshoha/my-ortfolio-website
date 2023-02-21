@@ -22,7 +22,7 @@ body{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background-color: #130f40; 
-    line-height: 1.6;
+   
     color: #ffffff;
     
     
@@ -300,6 +300,7 @@ ul a{
         color:  #FF8700;         
         margin-bottom: 1.5rem;
         background-color: #130f40;
+        padding-top: 10px;
     }
     
     .skills_container {
@@ -452,11 +453,19 @@ ul a{
         text-align: center;
        
        
+       
+       
+    }
+    .portfolio-section{
+        background-color: rgb(12, 5, 77);
+        margin-left: 30px;
+        margin-right: 30px;
+       
     }
     .container .portfolio-title{
         color:  #FF8700;
-        /* margin-bottom: 2rem; */
-        background-color: #12124c;
+       
+       
         padding: 20px;
         
     }
@@ -496,18 +505,27 @@ ul a{
      /* My Courses Section Start  */
 .courses {
     text-align: center;
+    
  
    
+}
+.course-bckgsound{
+    background-color: #130f40; 
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 0px;
 }
 .courses .container-title{
     color: #FF8700;
     margin: 2rem 0;
+    padding-top: 30px;
 }
   
 .courses_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    padding-bottom:30px;
 }
 
 .course {
@@ -545,8 +563,24 @@ ul a{
     }
     .accordion-items .accordion-item{
         margin: 10px;
+        padding-top: 10px;
+        
     }
 
+    .according-bg{
+        background-color: #130f40;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 30px;
+    }
+    .accorfing-heading{
+        text-align: center;
+        color: #FF8700;
+        margin-top:30px;
+        padding-top: 25px;
+
+    }
+   
 
 /*  Section End Here */
 /* Footer Section Start Here */
@@ -594,6 +628,9 @@ color: goldenrod;
 hr{
     color: #f7f7f7;
 }
+.name-tille{
+    color: #FF8700;
+}
 .footer_social {
     display: flex;
     gap: 1rem;
@@ -609,6 +646,7 @@ hr{
     margin-top: 4rem;
     padding: 1.2rem 0;
     border-top: 1px solid #ffffff;
+    font-size: larger;
 }
 
 
