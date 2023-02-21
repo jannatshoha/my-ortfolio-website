@@ -503,21 +503,7 @@ ul a{
     color: #FF8700;
     margin: 2rem 0;
 }
-   /* :root {
-            --gradient: linear-gradient(to bottom, #130f40, #190b39, #1c0732, #1d042b, #1e0025);
-            --primary: #FF8700;
-            --normal: #ffffff;
-            --black: #13131a;
-            --bg: #0a0724;
-            --sbg: #12124c;
-            --btn: #800080;
-            --danger: #f75842;
-            --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-        
-            --container-width-lg: 80%;
-            --container-width-md: 90%;
-            --container-width-sm: 94%;
-        } */
+  
 .courses_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -651,10 +637,10 @@ hr{
 }
 .footer_social {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     font-size: 1.5rem;
     margin-top: 0.9.rem;
-    margin-left: 62rem;
+    margin-left: 61rem;
    
 }
 
@@ -665,218 +651,22 @@ hr{
     padding: 1.2rem 0;
     border-top: 1px solid #ffffff;
 }
-/* footer {
-    padding-top: 3rem;
-    background-color: #13131a;
-    font-size: 0.9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
 
-.footer_container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
+
+
+
+
+
    
-}
 
-.footer_container>div h4 {
-    margin-bottom: 1.2rem;
-    color:  #FF8700;
-}
-
-.footer_1 p {
-    margin: 0 0 2rem;
-}
-
-footer ul li {
-    margin-bottom: 0.7rem;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
-    color:  #FF8700;
-}
-
-.footer_4 .mail {
-    text-transform: lowercase;
-}
-.footer p{
-    color: #FF8700;
-}
-.footer_social {
-    display: flex;
-    gap: 1.5rem;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
+  
    
-}
 
-.footer_copyright {
-    color: #FF8700;
-    text-align: center;
-    margin-top: 4rem;
-    padding: 1.2rem 0;
-    border-top: 1px solid #ffffff;
-}
- */
-
-
-
-
-
-
-
-
-/* ======MEDIA QUERIES (TABLETS)======= */
-
-@media screen and (max-width:1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-
-    h1 {
-        font-size: 2.2rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    .header_right .text-1 {
-        font-size: 1.2rem;
-    }
-
-    .header_right .text-2 {
-        font-size: 2rem;
-    }
-
-    .header_right .text-3 {
-        font-size: 1.5rem;
-    }
-
-    .header_right .typing {
-        font-weight: 450;
-    }
-
-    .btn {
-        padding: 0.3rem 1.2rem;
-    }
-
-    /* ======NAVBAR OPEN======= */
-    nav button {
-        display: inline-block;
-        background: transparent;
-        font-size: 1.8rem;
-        color: var(--normal);
-        cursor: pointer;
-    }
-
-    nav button#close-menu-btn {
-        display: none;
-    }
-
-    .nav_menu {
-        position: fixed;
-        top: 5rem;
-        right: 5%;
-        gap: 0;
-        height: fit-content;
-        width: 18rem;
-        flex-direction: column;
-        display: none;
-        /* we will display with js  */
-    }
-
-    .nav_menu li{
-        width: 100%;
-        height: 3rem;
-        animation: animateNavItems 0.2s linear forwards;
-        transform-origin: top right;
-        opacity: 0;
-    }
-    .nav_menu li a{
-        background-color:#29e9bcf8;
-        box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
-        width: 100%;
-        height: 100%;
-        display: grid;
-        color: var(--bg);
-        place-items: center;
-    }
-
-    .nav_menu li:nth-child(2){
-        animation-delay: 0.2s;
-    }
-    .nav_menu li:nth-child(3){
-        animation-delay: 0.4s;
-    }
-    .nav_menu li:nth-child(4){
-        animation-delay: 0.6s;
-    }
-    .nav_menu li:nth-child(5){
-        animation-delay: 0.8s;
-    }
-    .nav_menu li:nth-child(6){
-        animation-delay: 1s;
-    }
-    .nav_menu li:nth-child(7){
-        animation-delay: 1.2s;
-    }
     
-    @keyframes animateNavItems {
-        0%{
-            transform: rotateZ(-90deg);
-        }
-        100%{
-            transform: rotateZ(0);
-            opacity: 1;
-        }
-    }
-
-    .services_container .cards {
-        row-gap: 1rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
     
-    .services_container .cards .card {
-       padding: 2rem 0.3rem;
-       margin: 0 0.5rem;
-    }
-    .services_container .cards .card:hover::after {
-        transform: rotate(5deg);
-    }
-    .gallery a {
-        height: 14rem;
-        width: 18rem;
-        margin: 1.2rem;
-        border-radius: 0.3rem;
-        overflow: hidden;
-        box-shadow: 0 3px 5px var(--primary);
-    }
-
-    .courses_container{
-        grid-template-columns: repeat(2,1fr);
-    }
+   
     
-    .faqs_container{
-        grid-template-columns: 1fr;
-    }
-    .faq{
-        padding: 1.5rem;
-    }
-    .footer_container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
+
 
 /* ========MEDIA QUERIES (MOBILE)======== */
 /* @media screen and (max-width:600px) {
